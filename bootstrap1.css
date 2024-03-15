@@ -11,7 +11,7 @@ body{
     h4{
         font-family: Roboto;
         letter-spacing: 0em;
-        color: #0E0E37;}
+        }
     p{
         font-family: Roboto;
         letter-spacing: 0em;
@@ -149,17 +149,36 @@ button{
     
 
 }
-
-    .col1{
+    
+.col1{
+        
+    background-color:  #515151;
+    width:25%;
+    height: 350px;
+    border-right: 6px solid white; 
+    ;
+     
+}  
+ 
+.collast{
+        
+    background-color:  #515151;
+    width:25%;
+    height: 350px;
+    border-left: 6px solid white; 
+     
+}
+    .col12{
         
         background-color:  #515151;
         width:25%;
         height: 350px;
-        border: 6px solid white;
+         border-right: 6px solid white;  
+         
     }
     .col2{
         background-color: #0E0E37CC;
-        width:25%;
+        width: 25%;
         height: 350px;
         h5{
             color: #FFFFFF;
@@ -170,7 +189,7 @@ button{
          p{
             color: #FFFFFF;
          }
-        border: 6px solid white;
+        /* border: 6px solid white; */
     
     }
 
@@ -242,12 +261,14 @@ button{
     }
 }
 .cta2{
-    background-color: #FAFAFA;
     button{
         width: 150px;
         height: 30px;
     }
-
+    margin-bottom: -100px;
+}
+.cta3{
+    background-color: #FAFAFA;
 }
 /* footer */
 .footer{
